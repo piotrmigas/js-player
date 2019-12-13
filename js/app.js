@@ -1,3 +1,7 @@
+$(function() {
+  $("body").removeClass("fade-out");
+});
+
 /*Playlist*/
 
 const menu = document.querySelector(".burger");

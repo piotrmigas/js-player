@@ -5,6 +5,15 @@ body {
   font-family: "Rambla", sans-serif;
   display: -ms-grid;
   display: grid;
+  opacity: 1;
+  -webkit-transition: 1s opacity;
+  transition: 1s opacity;
+}
+
+body.fade-out {
+  opacity: 0;
+  -webkit-transition: none;
+  transition: none;
 }
 
 .app {
