@@ -2,7 +2,7 @@ $(function() {
   $("body").removeClass("fade-out");
 });
 
-/*Playlist*/
+/*Playlista*/
 
 const menu = document.querySelector(".burger");
 const playlist = document.querySelector(".playlist");
